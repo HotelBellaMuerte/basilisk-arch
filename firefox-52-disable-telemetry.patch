@@ -1,5 +1,5 @@
---- firefox-52.0esr.bak/browser/confvars.sh	2017-03-09 09:11:36.643104656 +0100
-+++ firefox-52.0esr/browser/confvars.sh	2017-03-09 11:13:13.798231732 +0100
+--- a/application/basilisk/confvars.sh	2017-03-09 09:11:36.643104656 +0100
++++ b/application/basilisk/confvars.sh	2017-03-09 11:13:13.798231732 +0100
 @@ -62,3 +62,9 @@
  
  # Include the DevTools client, not just the server (which is the default)
