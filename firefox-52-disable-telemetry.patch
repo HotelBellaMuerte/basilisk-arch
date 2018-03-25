@@ -1,12 +1,17 @@
---- a/application/basilisk/confvars.sh	2017-03-09 09:11:36.643104656 +0100
-+++ b/application/basilisk/confvars.sh	2017-03-09 11:13:13.798231732 +0100
-@@ -62,3 +62,9 @@
+--- a/application/palemoon/confvars.sh	2017-03-09 09:11:36.643104656 +0100
++++ b/application/palemoon/confvars.sh	2017-03-09 11:13:13.798231732 +0100
+@@ -27,6 +27,14 @@
+ MOZ_JSDOWNLOADS=1
+ MOZ_WEBM_ENCODER=1
  
- # Include the DevTools client, not just the server (which is the default)
- MOZ_DEVTOOLS=all
 +
 +# Reduce data sharing with Mozilla
 +MOZ_DATA_REPORTING=0
 +MOZ_TELEMETRY_REPORTING=0
 +MOZ_CRASHREPORTER=0
 +MOZ_SERVICES_HEALTHREPORT=0
++
++
+ MOZ_PHOENIX_EXTENSIONS=1
+ MOZ_BROWSER_STATUSBAR=1
+ 

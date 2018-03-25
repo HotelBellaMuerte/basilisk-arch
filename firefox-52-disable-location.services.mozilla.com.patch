@@ -1,5 +1,5 @@
---- firefox-45.0esr.bak/toolkit/components/search/nsSearchService.js	2016-03-13
-+++ firefox-45.0esr/toolkit/components/search/nsSearchService.js	2016-03-13
+--- a/toolkit/components/search/nsSearchService.js	2016-03-13
++++ b/toolkit/components/search/nsSearchService.js	2016-03-13
 @@ -436,6 +436,10 @@
      return;
    }
