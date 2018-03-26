@@ -1,8 +1,8 @@
---- a/application/palemoon/confvars.sh	2017-03-09 09:11:36.643104656 +0100
-+++ b/application/palemoon/confvars.sh	2017-03-09 11:13:13.798231732 +0100
-@@ -27,6 +27,14 @@
- MOZ_JSDOWNLOADS=1
- MOZ_WEBM_ENCODER=1
+--- a/application/basilisk/confvars.sh	2017-03-09 09:11:36.643104656 +0100
++++ b/application/basilisk/confvars.sh	2017-03-09 11:13:13.798231732 +0100
+@@ -14,6 +14,16 @@
+   MOZ_BUNDLED_FONTS=1
+ fi
  
 +
 +# Reduce data sharing with Mozilla
@@ -12,6 +12,8 @@
 +MOZ_SERVICES_HEALTHREPORT=0
 +
 +
- MOZ_PHOENIX_EXTENSIONS=1
- MOZ_BROWSER_STATUSBAR=1
- 
++
++
+ if test "$OS_ARCH" = "WINNT"; then
+   MOZ_MAINTENANCE_SERVICE=
+ fi
